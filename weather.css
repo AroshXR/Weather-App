@@ -1,0 +1,89 @@
+body{
+    /* background image formating */
+    background-image: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* Other background formatings */
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    margin: 0%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    
+}
+.weather{ 
+    padding: 2%;
+    margin: 20px;
+}
+.inputCity{
+    margin: 10px; 
+    padding: 10px; 
+    border: 5px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}  
+button{
+    background-color: hsla(202, 61%, 37%, 0.664);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:3px 3px 3px hsla(0, 0%, 13%, 0.507) ;
+}
+button[type="submit"]:hover{
+    background-color: hsla(202, 61%, 37%, 0.89);
+    
+}
+.informationBox{
+    background:linear-gradient(180deg, hsl(204, 94%, 58%), rgb(252, 203, 44));
+    padding: 50px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow:7px 7px 5px hsla(0, 0%, 13%, 0.507);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 0%;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 5%;
+}
+.temperature{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.description{
+    font-family: sans-serif;
+    font-style: italic;
+}
+/* .stormy .rainy .snowy .windy .sunny .cloudy{
+    font-size: 4em;
+} */
+.imoji{
+    font-size: 4em;
+}
+.error{
+    font-style: oblique;
+    color: hsl(0, 100%, 50%);
+}
